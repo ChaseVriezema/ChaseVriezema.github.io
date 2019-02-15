@@ -1,6 +1,6 @@
 ---
-title: Contributors
-permalink: /contributors/
+title: New Contributors
+permalink: /new_contributors/
 include_nav: true
 ---
 
