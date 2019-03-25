@@ -1,108 +1,57 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Chase Vriezema
-email: chasev825@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+email: Chasev825@gmail.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "Keywords, "
+skills: "- Software Developer - Game Designer -"
+meta_author: Vriezema Chase
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: Chase
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: c3c3c3 #80B3FF
+  primary-rgb: "100,100,100" #"128,179,255"
+  secondary: 3f3f3f #FD6E8A
+  secondary-dark: 262626 #A2122F
+
+# Footer settings
+footer:
+  copyright: Chase Vriezema
+  location: Location
+  social: Around the Web
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: linkedin
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 5122 Lake Creek ct
+  - line: Frisco, TX 75035
 
 # Build settings
 markdown: kramdown
-theme: minima
-remote_theme: haacked/haackbar
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Homepage
-show_excerpts: true  # set to true to show excerpts on the homepage, otherwise full posts are shown
-
-# Comments
-# To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
-comments:
-  enabled: false
-  show_count: false
-#  receiver: https://.../  # See https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/ for more information.
-#  disqus_shortname: YOUR_DISQUS_SHORTNAME
-
-emptyArray: [] # Leave this here.
-
-# haackbar date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-haackbar:
-  date_format: "%b %-d, %Y"
-
-#
-# Jekyll Settings
-#
-permalink: /archive/:year/:month/:day/:title/
-paginate: 2 # number of posts per page
-page_group_size: 5 # number of pages to group by in the pagination.
-paginate_path: "/archive/page/:num"
-
-# Front matter defaults
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: post
-      comments: true
-  -
-    scope:
-      path: "pages"
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-  -
-    scope:
-      path: "assets/pages"
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-
-# Build settings
-markdown: kramdown
-kramdown:
-  hard_wrap: false
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-include-cache
+permalink: pretty
