@@ -1,0 +1,18 @@
+---
+layout: default
+modal-id: 2
+date: 2018-05-05
+slides: mySlides2
+img: Mirts_Thumb.png
+img_two: Mirts_2_Final.png
+img_three: Mirts_3_Final.png
+video: https://www.youtube.com/watch?v=VtqnwOnAMBE
+alt: image-alt
+project-date: Spring 2018
+category: Game Development
+engine: Rubymotion
+link: https://itunes.apple.com/us/app/mildly-interesting-rts/id1202710090?mt=8
+button_msg: Go to App Store
+description: Mildly Interesting RTS is an iOS game that has reached top ten on the App Store. I designed, implemented, and tested many features for the game, most of which have made it into the released version of the game. Since then I have also returned to iterate and improve on previous features in the game. 
+
+---
