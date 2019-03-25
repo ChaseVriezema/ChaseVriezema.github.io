@@ -16,23 +16,40 @@
                             <hr class="star-primary">
 
                             <!-- Full-width images with number and caption text -->
+<<<<<<< HEAD
                             <div class="{{post.slides}}">
                               <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="width:100%">
                             </div>
                             {% if post.img_two %}
                             <div class="{{post.slides}}">
+=======
+                            <div class="mySlides">
+                              <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="width:100%">
+                            </div>
+                            {% if post.img_two %}
+                            <div class="mySlides">
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
                                <img src="img/portfolio/{{ post.img_two }}" class="img-responsive img-centered" style="width:100%">
                             </div>
                             {% endif %}
                             {% if post.img_three %}
+<<<<<<< HEAD
                             <div class="{{post.slides}}">
                               <img src="img/portfolio/{{ post.img_three }}" class="img-responsive img-centered" style="width:100%">
                             </div>
                             {% endif %}
+=======
+                            <div class="mySlides">
+                              <img src="img/portfolio/{{ post.img_three }}" class="img-responsive img-centered" style="width:100%">
+                            </div>
+                            {% endif %}
+                            
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
                             </div>
                             <!-- The dots/circles -->
                             <div style="text-align:center">
                                 {% if post.img_two %}
+<<<<<<< HEAD
                                 <span class="dot" onclick="currentSlide(1, {{post.modal-id}} - 1 )"></span>
                                 {% endif %}
                                 {% if post.img_two %}
@@ -43,18 +60,35 @@
                                 {% endif %}
                             </div>
                             
+=======
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                {% endif %}
+                                {% if post.img_two %}
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                {% endif %}
+                                {% if post.img_three %}
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                {% endif %}
+                            </div>
+                            <br/>
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:
+<<<<<<< HEAD
                                         <strong>{{ post.client }}
+=======
+                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
+<<<<<<< HEAD
                                         <strong>{{ post.project-date }}
                                         </strong>
                                     </li>
@@ -62,11 +96,21 @@
                                 {% if post.engine %}
                                     <li>Tools:
                                         <strong>{{ post.engine }}
+=======
+                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.category %}
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
                                         </strong>
                                     </li>
                                 {% endif %}
                             </ul>
                             <div class="slideshow-container">
+<<<<<<< HEAD
                             {% if post.download %}
                                 <a href="img/{{post.download}}" class="btn btn-default btn-fill">
                                     <i class="fa fa-download"></i> {{post.button_msg}}
@@ -77,6 +121,10 @@
                                     <i class="fa fa-external-link"></i> {{post.button_msg}}
                                 </a>
                             {% endif %}
+=======
+                            
+
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

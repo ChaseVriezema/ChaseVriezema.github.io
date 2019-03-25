@@ -55,11 +55,19 @@
   
     <entry>
       <title type="html">Mirts</title>
+<<<<<<< HEAD
       <link href="http://localhost:4000/game%20development/2018/05/05/MIRTS/" rel="alternate" type="text/html" title="Mirts" />
       <published>2018-05-05T00:00:00-05:00</published>
       <updated>2018-05-05T00:00:00-05:00</updated>
       <id>http://localhost:4000/game%20development/2018/05/05/MIRTS</id>
       <content type="html" xml:base="http://localhost:4000/game%20development/2018/05/05/MIRTS/"></content>
+=======
+      <link href="http://localhost:4000/web%20development/2014/07/17/MIRTS/" rel="alternate" type="text/html" title="Mirts" />
+      <published>2014-07-17T00:00:00-05:00</published>
+      <updated>2014-07-17T00:00:00-05:00</updated>
+      <id>http://localhost:4000/web%20development/2014/07/17/MIRTS</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/17/MIRTS/"></content>
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
 
       
       
@@ -74,7 +82,11 @@
       </author>
 
       
+<<<<<<< HEAD
         <category term="Game Development" />
+=======
+        <category term="Web Development" />
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
       
 
       
@@ -88,12 +100,21 @@
     </entry>
   
     <entry>
+<<<<<<< HEAD
       <title type="html">Panopticon</title>
       <link href="http://localhost:4000/game%20development/2016/04/28/Panopticon/" rel="alternate" type="text/html" title="Panopticon" />
       <published>2016-04-28T00:00:00-05:00</published>
       <updated>2016-04-28T00:00:00-05:00</updated>
       <id>http://localhost:4000/game%20development/2016/04/28/Panopticon</id>
       <content type="html" xml:base="http://localhost:4000/game%20development/2016/04/28/Panopticon/"></content>
+=======
+      <title type="html">Fate</title>
+      <link href="http://localhost:4000/web%20development/2014/07/16/Fate/" rel="alternate" type="text/html" title="Fate" />
+      <published>2014-07-16T00:00:00-05:00</published>
+      <updated>2014-07-16T00:00:00-05:00</updated>
+      <id>http://localhost:4000/web%20development/2014/07/16/Fate</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/16/Fate/"></content>
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
 
       
       
@@ -108,7 +129,11 @@
       </author>
 
       
+<<<<<<< HEAD
         <category term="Game Development" />
+=======
+        <category term="Web Development" />
+>>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
       
 
       
