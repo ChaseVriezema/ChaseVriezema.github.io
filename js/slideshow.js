@@ -13,12 +13,9 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-<<<<<<< HEAD
 function currentSlide(n, no) {
   showSlides(slideIndex[no] = n, no);
 }
-=======
->>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
 
 function showSlides(n) {
   var i;
@@ -34,7 +31,6 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
-<<<<<<< HEAD
 }
 
 function showSlides(n, no) {
@@ -46,6 +42,4 @@ function showSlides(n, no) {
     x[i].style.display = "none";
   }
   x[slideIndex[no] - 1].style.display = "block";
-=======
->>>>>>> 8e2813efd6e436c1fb6174905ce1fb5caff4fe4b
 }
