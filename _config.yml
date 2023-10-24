@@ -33,24 +33,16 @@ color:
 # Footer settings
 footer:
   copyright: Chase Vriezema
-  location: Location
   social: Around the Web
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/Linds_HS
-  - title: facebook
-    url: https://www.facebook.com/chase.vr.9
+    url: https://twitter.com/SometimesLinds
   - title: linkedin
-    url: https://www.linkedin.com/in/chase-vriezema-b5088773/
+    url: https://www.linkedin.com/in/chasevriezema825/
   - title: github
     url: https://github.com/chasevriezema
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 5122 Lake Creek ct
-  - line: Frisco, TX 75035
 
 # Build settings
 markdown: kramdown
