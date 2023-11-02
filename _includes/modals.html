@@ -16,20 +16,22 @@
                             <hr class="star-primary">
 
                             <!-- Full-width images with number and caption text -->
+                            <div style="text-align:center">
                             <div class="{{post.slides}}">
-                              <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="width:100%">
-                            </div>
-                            {% if post.img_two %}
-                            <div class="{{post.slides}}">
-                               <img src="img/portfolio/{{ post.img_two }}" class="img-responsive img-centered" style="width:100%">
-                            </div>
-                            {% endif %}
-                            {% if post.img_three %}
-                            <div class="{{post.slides}}">
-                              <img src="img/portfolio/{{ post.img_three }}" class="img-responsive img-centered" style="width:100%">
-                            </div>
-                            {% endif %}
-                            </div>
+                                <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="width:100%">
+                                </div>
+                                {% if post.img_two %}
+                                <div class="{{post.slides}}">
+                                <img src="img/portfolio/{{ post.img_two }}" class="img-responsive img-centered" style="width:100%">
+                                </div>
+                                {% endif %}
+                                {% if post.img_three %}
+                                <div class="{{post.slides}}">
+                                <img src="img/portfolio/{{ post.img_three }}" class="img-responsive img-centered" style="width:100%">
+                                </div>
+                                {% endif %}
+                                </div>
+
                             <!-- The dots/circles -->
                             <div style="text-align:center">
                                 {% if post.img_two %}
@@ -78,6 +80,7 @@
                                 </a>
                             {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
                         </div>
                     </div>
                 </div>

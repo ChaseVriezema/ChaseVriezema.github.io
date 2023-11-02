@@ -1,14 +1,14 @@
 ---
 layout: default
-modal-id: 4
-date: 2018-12-13
-slides: mySlides4
+modal-id: 2
+date: 2021-07-01
+slides: mySlides2
 img: Fate_Sized_1.png
 img_two: Fate_1_Final.png
 img_three: Fate_2_Final.png
 video: https://www.youtube.com/watch?v=VtqnwOnAMBE
 alt: image-alt
-project-date: Fall 2018
+project-date: Summer 2019
 client: UTD Capstone
 category: Game Development
 engine: Unity

@@ -1,8 +1,8 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 6
 date: 2016-04-28
-slides: mySlides3
+slides: mySlides6
 img: Panopticon_Image.png
 img_two: Pano_1_Final.png
 img_three: Pano_2_Final.png
