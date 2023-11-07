@@ -3,9 +3,10 @@ layout: default
 modal-id: 3
 date: 2021-01-14
 slides: mySlides3
-img: BS_Thumb.png
+thumb: BS_Thumb.png
+img: IMG_1321.png
 img_two: IMG_1317.jpeg
-img_three: IMG_1321.png
+img_three: IMG_1316.jpeg
 video: https://www.youtube.com/watch?v=VtqnwOnAMBE
 alt: image-alt
 project-date: Summer 2020

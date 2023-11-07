@@ -3,6 +3,7 @@ layout: default
 modal-id: 5
 date: 2018-05-05
 slides: mySlides5
+thumb: MIRTS_1.jpg
 img: Mirts_Thumb.png
 img_two: Mirts_2_Final.png
 img_three: Mirts_3_Final.png

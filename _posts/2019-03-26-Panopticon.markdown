@@ -3,6 +3,7 @@ layout: default
 modal-id: 6
 date: 2016-04-28
 slides: mySlides6
+thumb: Panopticon_Image.png
 img: Panopticon_Image.png
 img_two: Pano_1_Final.png
 img_three: Pano_2_Final.png

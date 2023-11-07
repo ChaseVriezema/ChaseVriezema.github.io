@@ -3,6 +3,7 @@ layout: default
 modal-id: 4
 date: 2018-12-13
 slides: mySlides4
+thumb: Fate_Sized_1.png
 img: Fate_Sized_1.png
 img_two: Fate_1_Final.png
 img_three: Fate_2_Final.png
