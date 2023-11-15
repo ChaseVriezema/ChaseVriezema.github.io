@@ -15,7 +15,7 @@ category: Game Development
 engine: Unity
 link: https://play.google.com/store/apps/details?id=mogul.coin.splash.games.build.masters.raids&hl=en_US&gl=US&pli=1
 button_msg: Playstore
-description: Fate is a digital collectable card game that uniquely mixes multiple genres into one. It won the UTD Best Capstone 2018 Award. I spent a little less than two years designing Fate and I decided to create a full vertical slice of gameplay for my Arts and Technology capstone project. The prototype was made over the course of one semester, and I implemeneted every feature from the physical version of the game.
+description: Coinsplash is a slots based business management game that I worked on for a year during its softlaunch lifetime. I was on a team of two other people, and contributed majorly to many of the features and fixes we implemented in the game. I helped build its analytics system, ad management system, IAP system and many different gameplay features while I was there. I also spearheaded many efforts to improve the maintainability and extensability of our codebase, as well as handle many of our optimization challenges such as speeding up loadtimes and handling latency on network calls.
 
 
 ---
